@@ -47,8 +47,13 @@ params:
       name: GitHub
       url: https://github.com/HungryAmoeba
     - identifier: Google Scholar
+      title: Google Scholar
       name: googlescholar
       url: https://scholar.google.com/citations?hl=en&user=1UWmkzIAAAAJ
+    - identifier: email 
+      name: email
+      url: "mailto:charlsxu@mit.edu"
+
 
 menu:
   main:
