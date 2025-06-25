@@ -1,14 +1,14 @@
 +++
 title = 'Hello world'
 date = 2024-08-07T14:55:00-04:00
-draft = false
+draft = true
 math = true
 +++
 
-# this is the title
+<!-- # this is the title -->
 
-## borgir 
+<!-- ## borgir 
 
-Does $$ \int_3^5 $$ get compiled?
+Does $$ \int_3^5 $$ get compiled? -->
 
 
