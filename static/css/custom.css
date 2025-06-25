@@ -1,0 +1,28 @@
+/* Debug: Make all paragraphs red to test if CSS is working */
+p {
+    color: red !important;
+    margin-bottom: 3em !important;
+}
+
+/* Debug: Try different selectors for PaperMod home content */
+.home-info p {
+    margin-bottom: 2em !important;
+}
+
+.entry-content p {
+    margin-bottom: 2em !important;
+}
+
+.post-content p {
+    margin-bottom: 2em !important;
+}
+
+/* Debug: Target by content class if it exists */
+.home-content p {
+    margin-bottom: 2em !important;
+}
+
+/* Debug: Very broad selector */
+main p {
+    margin-bottom: 2em !important;
+}

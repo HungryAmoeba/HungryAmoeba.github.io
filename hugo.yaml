@@ -4,35 +4,50 @@ title: HungryAmoeba
 theme: ["PaperMod"]
 
 params:
+  assets:
+      disableScrollBarStyle: false
+  customCSS:
+    - "css/custom.css"
+  #["css/custom.css"]
+  #assets: ["css/custom.css"]
+
+  math: true
+
   ShowBreadCrumbs: true
 
   ShowReadingTime: true
 
-  # profileMode:
-  #   enabled: true
-  #   title: 'title 2'
-  #   subtitle: 'subtitle 2'
-  #   image: 'images/phate_traj.png'
-  #   imageAlt: 'profile image'
-  #   imageWidth: '100'
-  #   imageHeight: '100'
+
+
+  profileMode:
+    enabled: false
+    title: 'Charles Xu'
+    subtitle: 'Student of the Rueful Countenance'
+    imageUrl: 'images/IMG_6300.jpeg'
+    imageAlt: 'profile image'
+    imageWidth: '256'
+    imageHeight: '256'
 
   homeInfoParams:
     title: "Charles Xu"
-    Content: "Calorie enjoyer"
+    Content: |
+      Hi there! I am a first year PhD student in computer science at MIT where I am fortunate to be advised by [Jörn Dunkel](https://math.mit.edu/~dunkel/). In my research I seek to develop computational methods which can discover the physical and mathematical structure underlying living systems. My work utilizes ideas from geometric algebra, machine learning, and dynamics identification. 
+
+      Previously I studied applied math and chemistry at Yale, where I worked in [Smita Krishnaswamy's](https://krishnaswamylab.org) lab to develop graph representation learning methods to study high dimensional biological data.
+
     description: "This is a simple site built with Hugo and PaperMod theme."
-    image: 'images/phate_traj.png'
-    imageAlt: 'profile image'
-    imageWidth: '100'
-    imageHeight: '100'
+    # image: 'images/phate_traj.png'
+    # imageAlt: 'profile image'
+    # imageWidth: '100'
+    # imageHeight: '100'
     #image: "/images/home.jpg"
     #imageAlt: "Home image"
   socialIcons:
     - identifier: github
       name: GitHub
       url: https://github.com/HungryAmoeba
-    - identifier: googlescholar
-      name: Google Scholar
+    - identifier: Google Scholar
+      name: googlescholar
       url: https://scholar.google.com/citations?hl=en&user=1UWmkzIAAAAJ
 
 menu:
