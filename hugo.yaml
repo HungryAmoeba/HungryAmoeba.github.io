@@ -1,6 +1,6 @@
 baseURL: ""
 languageCode: en-us
-title: HungryAmoeba
+title: Charles Xu
 theme: ["PaperMod"]
 
 params:
@@ -29,9 +29,9 @@ params:
     imageHeight: '256'
 
   homeInfoParams:
-    title: "Charles Xu"
+    title: "Charles Q. Xu"
     Content: |
-      Hi there! I am a first year PhD student in computer science at MIT where I am fortunate to be advised by [Jörn Dunkel](https://math.mit.edu/~dunkel/). In my research I seek to develop computational methods which can discover the physical and mathematical structure underlying living systems. My work utilizes ideas from geometric algebra, machine learning, and dynamics identification. 
+      Hi there! I am a second year PhD student in computer science at MIT where I am fortunate to be advised by [Jörn Dunkel](https://math.mit.edu/~dunkel/). In my research I seek to develop computational methods which can discover the physical and mathematical structure underlying living systems. My work utilizes ideas from geometric algebra, machine learning, and dynamics identification. 
 
       Previously I studied applied math and chemistry at Yale, where I worked in [Smita Krishnaswamy's](https://krishnaswamylab.org) lab to develop graph representation learning methods to study high dimensional biological data.
 
