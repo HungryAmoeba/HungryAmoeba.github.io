@@ -69,8 +69,7 @@ menu:
     #   name: Blog
     #   url: /blog/
     #   weight: 3
-    # - identifier: research
-    #   name: Research
-    #   url: /research/
-    #   weight: 4
-      
+    - identifier: research
+      name: Research
+      pageRef: /research
+      weight: 20
