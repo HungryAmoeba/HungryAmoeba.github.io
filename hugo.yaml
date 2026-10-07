@@ -31,7 +31,7 @@ params:
   homeInfoParams:
     title: "Charles Q. Xu"
     Content: |
-      Hi there! I am a second year PhD student in computer science at MIT where I am fortunate to be advised by [Jörn Dunkel](https://math.mit.edu/~dunkel/). In my research I seek to develop computational methods which can discover the physical and mathematical structure underlying living systems. My work utilizes ideas from geometric algebra, machine learning, and dynamics identification. 
+      Hi there! I am a third-year PhD student in computer science at MIT where I am fortunate to be advised by [Jörn Dunkel](https://math.mit.edu/~dunkel/). In my research I seek to develop computational methods which can discover the physical and mathematical structure underlying living systems. My work utilizes ideas from geometric algebra, machine learning, and dynamics identification.
 
       Previously I studied applied math and chemistry at Yale, where I worked in [Smita Krishnaswamy's](https://krishnaswamylab.org) lab to develop graph representation learning methods to study high dimensional biological data.
 
@@ -69,8 +69,7 @@ menu:
     #   name: Blog
     #   url: /blog/
     #   weight: 3
-    # - identifier: research
-    #   name: Research
-    #   url: /research/
-    #   weight: 4
-      
+    - identifier: cv
+      name: CV
+      pageRef: /cv
+      weight: 20
